@@ -1,0 +1,8 @@
+<h1>Stupid Coaching</h1>
+<!-- <p>Find me in app/views/questions/answer.html.erb</p> -->
+<div class="container">
+  <p><%=@question%><br>-You</p>
+  <p id="coach"><strong><%=@answer%></strong><br>-Your coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
